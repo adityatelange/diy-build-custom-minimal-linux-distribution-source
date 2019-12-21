@@ -4,7 +4,7 @@ ln -sf bash /bin/sh > /dev/null 2>&1
 # Binutils, gcc , g++, xz, make, patch
 apt-get -y update 
 apt-get install -y --no-install-recommends build-essential
-apt-get install -y ncurses perl wget ca-certificates
+apt-get install -y libncurses5-dev perl wget ca-certificates
 
 
 
